@@ -1,0 +1,12 @@
+//var harshNum = 108;
+     let count=0;
+let temp= n.toString(2).split("");
+   
+    console.log(temp);
+   for(i=0;i<temp.length; i++){
+       if(temp[i]==="1"){
+           count++;
+       }
+       return count;
+   }
+    
